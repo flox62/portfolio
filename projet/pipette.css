@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  .file-label {
+    display: block;
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .hidden-input {
+    display: none;
+  }
+  
+  .color-picker {
+    margin-top: 10px;
+  }
+  
+  .color-picker label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .color-picker input {
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  #removeColorBtn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #removeColorBtn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  #removeColorBtn:hover {
+    background-color: #45a049;
+  }
+  
+  .canvas-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #canvas {
+    border: 1px solid #ccc;
+  }
+  
+  .download-section {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .download-section button {
+    background-color: #008CBA;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-section button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .download-section button:hover {
+    background-color: #005F79;
+  }
+  
